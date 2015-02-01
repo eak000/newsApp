@@ -1,0 +1,2 @@
+# newsApp
+AngularJS news app
