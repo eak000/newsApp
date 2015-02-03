@@ -9,18 +9,18 @@
  */
 angular.module('newsAppApp')
   .controller('ListCtrl', function ($scope) {
-    $scope.list = [
+    $scope.myList = [
       {
        item: 'item 1',
-       description: 'It\' a thing',
+       description: 'It\'s a thing',
       },
       {
        item: 'item 2',
-       description: 'It\' a thing',
+       description: 'It\'s a thing',
       },
       {
        item: 'item 3',
-       description: 'It\' a thing',
+       description: 'It\'s a thing',
       },
     ];
   });
