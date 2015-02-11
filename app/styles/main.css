@@ -2,6 +2,8 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #131959;
+  color: #fff;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -34,7 +36,7 @@ body {
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 900px;
   }
 }
 .container-narrow > hr {
@@ -77,3 +79,32 @@ body {
     border-bottom: 0;
   }
 }
+
+/****** CUSTOM STYLES ******/
+
+h2 {
+  color: #8AE62E;
+}
+
+a {
+  color: #8AE62E;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: #EBECED;
+  background-color: #9F9FAE;
+}
+
+.text-muted {
+  color: #9F9FAE;
+}
+
+ul {
+  list-style: none;
+}
+
+.masonry-brick {
+  width: 30%;
+}
+
+
