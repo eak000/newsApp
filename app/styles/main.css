@@ -36,7 +36,7 @@ body {
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 900px;
+    max-width: 1200px;
   }
 }
 .container-narrow > hr {
@@ -104,7 +104,7 @@ ul {
 }
 
 .masonry-brick {
-  width: 30%;
+  /*width: 30%;*/
 }
 
 
