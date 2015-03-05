@@ -30,9 +30,9 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
-      .when('/list', {
-        templateUrl: 'views/list.html',
-        controller: 'ListCtrl'
+      .when('/categories/:categoryName', {
+        templateUrl: 'views/category.html',
+        controller: 'CategoryCtrl'
       })
       .otherwise({
         redirectTo: '/'

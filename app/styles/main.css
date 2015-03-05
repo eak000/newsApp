@@ -2,7 +2,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #131959;
+  background-color: #18273A;
   color: #fff;
 }
 
@@ -15,12 +15,10 @@ body {
 }
 
 /* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-}
+
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 0;
   line-height: 40px;
   padding-bottom: 19px;
@@ -30,13 +28,12 @@ body {
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
 }
 
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 1200px;
+    max-width: 900px;
   }
 }
 .container-narrow > hr {
@@ -82,21 +79,33 @@ body {
 
 /****** CUSTOM STYLES ******/
 
+h1 {
+  color: #EC6841;
+}
+
 h2 {
-  color: #8AE62E;
+  color: #000;
+  position: absolute;
+  top: 35%;
+  left: 35%;
 }
 
 a {
-  color: #8AE62E;
+  color: #8AE7DD;
+}
+
+.nav > li > a {
+  padding: 5px 15px;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: #EBECED;
-  background-color: #9F9FAE;
+  background-color: #A2A19B;
 }
 
 .text-muted {
-  color: #9F9FAE;
+  font-size: 10em;
+  color: #A2A19B;
 }
 
 ul {
@@ -104,7 +113,17 @@ ul {
 }
 
 .masonry-brick {
-  /*width: 30%;*/
+  margin: 0;
+  padding: 0;
+}
+.masonryImage {
+  width: 100%;
+  border: 2px solid #EC6841;
 }
 
+.categoryName {
+  padding: .25em;
+  border: 2px solid #EC6841;
+  background: rgba(255,255,255,.65);
+}
 

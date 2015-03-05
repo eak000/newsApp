@@ -15,19 +15,15 @@ angular.module('newsAppApp')
     $scope.categories = [
           {
           name: 'design',
-          image: '../../images/design.jpg' ,
+          image: '../../images/origami.jpg' ,
           },
           {
           name: 'gaming',
-          image: '../../images/mario.jpg' ,
+          image: '../../images/gaming.jpg' ,
           },
           {
-          name: 'cars',
-          image: '../../images/cars.jpg',
-          },
-          {
-          name: 'finance',
-          image: '../../images/finance.jpg',
+          name: 'science',
+          image: '../../images/science.jpg',
           },
           {
           name: 'sports',
@@ -35,11 +31,11 @@ angular.module('newsAppApp')
           },
           {
           name: 'travel',
-          image: '../../images/beach.jpg',
+          image: '../../images/traveling.jpg',
           },
           {
-          name: 'science',
-          image: '../../images/dinosci.jpg',
+          name: 'finance',
+          image: '../../images/finance.jpg',
           },
           {
           name: 'cinema',
@@ -51,7 +47,7 @@ angular.module('newsAppApp')
           },
           {
           name: 'business',
-          image: '../../images/business.jpg',
+          image: '../../images/meeting.jpg',
           },
           ];
 
