@@ -4,8 +4,10 @@
 
    <div class="row" masonry>
     <div class="col-md-6 col-sm-6 col-xs-12 masonry-brick" ng-repeat="category in categories">
-      <h2 class="categoryName">{{category.name}}</h2>
-      <img src="{{ category.image }}" alt="A masonry brick" class="masonryImage">
+      <div ng-controller="CategoryCtrl" ng-click="CategoryName()">
+        <img src="{{category.image}}" alt="A masonry brick" class="masonryImage">
+        <h2 class="categoryName">{{category.name}}</h2>
+      </div>
     </div>   
    </div>
   

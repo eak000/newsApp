@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name newsAppApp.controller:AboutCtrl
+ * @name newApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the newsAppApp
+ * Controller of the newApp
  */
-angular.module('newsAppApp')
+angular.module('newApp')
   .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
       {

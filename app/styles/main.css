@@ -121,6 +121,14 @@ ul {
   border: 2px solid #EC6841;
 }
 
+img {
+  opacity: .88;
+}
+
+img:hover {
+  opacity: 1;
+}
+
 .categoryName {
   padding: .25em;
   border: 2px solid #EC6841;

@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name newsAppApp.controller:MainCtrl
+ * @name newApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the newsAppApp
+ * Controller of the newApp
  */
-angular.module('newsAppApp')
+angular.module('newApp')
   .controller('MainCtrl', function ($scope) {
 
     /** NEWS CATEGORIES **/
@@ -26,16 +26,16 @@ angular.module('newsAppApp')
           image: '../../images/science.jpg',
           },
           {
-          name: 'sports',
-          image: '../../images/reign.jpg',
-          },
-          {
           name: 'travel',
           image: '../../images/traveling.jpg',
           },
           {
           name: 'finance',
           image: '../../images/finance.jpg',
+          },
+          {
+          name: 'sports',
+          image: '../../images/reign.jpg',
           },
           {
           name: 'cinema',
@@ -48,7 +48,8 @@ angular.module('newsAppApp')
           {
           name: 'business',
           image: '../../images/meeting.jpg',
-          },
-          ];
+          }
+     ];
 
   });
+

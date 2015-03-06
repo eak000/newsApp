@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name newsAppApp.controller:CategoryCtrl
+ * @name newApp.controller:CategoryCtrl
  * @description
  * # CategoryCtrl
- * Controller of the newsAppApp
+ * Controller of the newApp
  */
 
-angular.module('newsAppApp')
+angular.module('newApp')
   .controller('CategoryCtrl', ['$scope', '$routeParams',
     function($scope, $routeParams){
        var categoryName = $routeParams.categoryName;

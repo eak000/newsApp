@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name newsAppApp
+ * @name newApp
  * @description
- * # newsAppApp
+ * # newApp
  *
  * Main module of the application.
  */
 angular
-  .module('newsAppApp', [
+  .module('newApp', [
     'ngAnimate',
     'ngAria',
     'ngCookies',
