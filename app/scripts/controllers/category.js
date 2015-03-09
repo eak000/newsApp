@@ -11,5 +11,5 @@
 angular.module('newApp')
   .controller('CategoryCtrl', ['$scope', '$routeParams',
     function($scope, $routeParams){
-       var categoryName = $routeParams.categoryName;
+       $scope.categoryName = $routeParams.categoryName;
 }]);

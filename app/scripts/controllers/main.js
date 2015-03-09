@@ -10,6 +10,10 @@
 angular.module('newApp')
   .controller('MainCtrl', function ($scope) {
 
+     // $scope.categoryName = function(){
+
+     // };
+
     /** NEWS CATEGORIES **/
 
     $scope.categories = [
